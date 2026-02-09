@@ -70,7 +70,7 @@
 &kp F7     &kp F8         &kp F9     &kp F10       &kp F11               &kp F12                 &kp N7          &kp N8        &kp N9        &kp PLUS   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &kp LSHFT  &kp LG(LS(N))  &kp LG(N)  &kp LG(T)     &kp LG(LS(NUMBER_3))  &kp LG(LS(NUMBER_4))    &kp NUMBER_4    &kp N5        &kp NUMBER_6  &kp PLUS   &kp LEFT_BRACKET      &kp RIGHT_BRACKET
 &kp LG(Z)  &kp LG(A)      &kp LG(F)  &kp LG(X)     &kp LG(C)             &kp LG(Z)               &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp ENTER  &kp LEFT_BRACE        &kp RIGHT_BRACE
-                                     &kp LEFT_WIN  &kp SPACE             &trans                  &kp ENTER       &kp N0
+                                     &kp LEFT_WIN  &kp SPACE             &kp ESC                 &kp ENTER       &kp N0
                                                    &none                 &none                   &none
             >;
         };
