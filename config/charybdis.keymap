@@ -17,35 +17,35 @@
         arrow_function: arrow_function {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp C &kp O &kp N &kp S &kp T &kp SPACE &kp SPACE &kp EQUAL &kp SPACE &kp LPAR &kp RPAR &kp SPACE &kp EQUAL &kp GT &kp SPACE &kp LBRC &kp RBRC &kp SEMI>;
+            bindings = <&kp C &kp O &kp N &kp S &kp T &kp SPACE &kp SPACE &kp EQUAL &kp SPACE &kp LPAR &kp RPAR &kp SPACE &kp EQUAL &kp GT &kp SPACE &kp LBRC &kp RBRC>;
             label = "ARROW_FUNCTION";
         };
 
         interface: interface {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp I &kp N &kp T &kp E &kp R &kp F &kp A &kp C &kp E &kp SPACE &kp LS(F) &kp O &kp O &kp SPACE &kp LBRC &kp RET &kp SPACE &kp SPACE &kp B &kp A &kp R &kp COLON &kp SPACE &kp S &kp T &kp R &kp I &kp N &kp G &kp SEMI &kp RET &kp RBRC>;
+            bindings = <&kp I &kp N &kp T &kp E &kp R &kp F &kp A &kp C &kp E &kp SPACE &kp LS(F) &kp O &kp O &kp SPACE &kp LBRC &kp RET &kp SPACE &kp SPACE &kp B &kp A &kp R &kp COLON &kp SPACE &kp S &kp T &kp R &kp I &kp N &kp G &kp RET &kp RBRC>;
             label = "INTERFACE";
         };
 
         type: type {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp T &kp Y &kp P &kp E &kp SPACE &kp LS(F) &kp O &kp O &kp SPACE &kp EQUAL &kp SPACE &kp S &kp T &kp R &kp I &kp N &kp G &kp SEMI>;
+            bindings = <&kp T &kp Y &kp P &kp E &kp SPACE &kp LS(F) &kp O &kp O &kp SPACE &kp EQUAL &kp SPACE &kp S &kp T &kp R &kp I &kp N &kp G>;
             label = "TYPE";
         };
 
         ref: ref {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp C &kp O &kp N &kp S &kp T &kp SPACE &kp F &kp O &kp O &kp SPACE &kp EQUAL &kp SPACE &kp R &kp E &kp F &kp LPAR &kp RPAR &kp SEMI>;
+            bindings = <&kp C &kp O &kp N &kp S &kp T &kp SPACE &kp F &kp O &kp O &kp SPACE &kp EQUAL &kp SPACE &kp R &kp E &kp F &kp LPAR &kp RPAR>;
             label = "REF";
         };
 
         computed: computed {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp C &kp O &kp N &kp S &kp T &kp SPACE &kp F &kp O &kp O &kp SPACE &kp EQUAL &kp SPACE &kp C &kp O &kp M &kp P &kp U &kp T &kp E &kp D &kp LPAR &kp LPAR &kp RPAR &kp SPACE &kp EQUAL &kp GT &kp SPACE &kp SQT &kp B &kp A &kp R &kp SQT &kp RPAR &kp SEMI>;
+            bindings = <&kp C &kp O &kp N &kp S &kp T &kp SPACE &kp F &kp O &kp O &kp SPACE &kp EQUAL &kp SPACE &kp C &kp O &kp M &kp P &kp U &kp T &kp E &kp D &kp LPAR &kp LPAR &kp RPAR &kp SPACE &kp EQUAL &kp GT &kp SPACE &kp SQT &kp B &kp A &kp R &kp SQT &kp RPAR>;
             label = "COMPUTED";
         };
     };
@@ -55,12 +55,12 @@
 
         Base {
             bindings = <
-&kp GRAVE       &kp N1  &kp N2  &kp N3        &kp N4          &kp N5         &kp N6       &kp N7     &kp N8     &kp N9   &kp N0     &kp BACKSPACE
-&kp TAB         &kp Q   &kp W   &kp E         &kp R           &kp T          &kp Y        &kp U      &kp I      &kp O    &kp P      &kp NON_US_BACKSLASH
-&kp LEFT_SHIFT  &kp A   &kp S   &kp D         &kp F           &kp G          &kp H        &kp J      &kp K      &kp L    &kp SEMI   &kp APOS
-&kp LCTRL       &kp Z   &kp X   &kp C         &kp V           &kp B          &kp N        &kp M      &kp COMMA  &kp DOT  &kp SLASH  &kp MINUS
-                                &kp LEFT_WIN  &lt 1 CAPSLOCK  &lt 2 SPACE    &lt 3 ENTER  &kp EQUAL
-                                              &mkp LCLK       &mkp RCLK      &kp DELETE
+&kp GRAVE       &kp N1  &kp N2  &kp N3       &kp N4          &kp N5          &kp N6          &kp N7     &kp N8     &kp N9   &kp N0     &kp BACKSPACE
+&kp TAB         &kp Q   &kp W   &kp E        &kp R           &kp T           &kp Y           &kp U      &kp I      &kp O    &kp P      &kp BACKSLASH
+&kp LEFT_SHIFT  &kp A   &kp S   &kp D        &kp F           &kp G           &kp H           &kp J      &kp K      &kp L    &kp SEMI   &kp APOS
+&kp LCTRL       &kp Z   &kp X   &kp C        &kp V           &kp B           &kp N           &kp M      &kp COMMA  &kp DOT  &kp SLASH  &kp MINUS
+                                &lt 2 SPACE  &mkp RCLK       &kp LEFT_GUI    &lt 3 KP_ENTER  &kp EQUAL
+                                             &lt 1 CAPSLOCK  &mkp LCLK       &kp DELETE
             >;
         };
 
@@ -77,7 +77,7 @@
 
         Macro {
             bindings = <
-&kp F12        &kp F1      &kp F2      &kp F3        &kp F4      &kp F5             &kp F6             &kp F7         &kp F8    &kp F9     &kp F10  &kp F11
+&kp ESC        &kp F1      &kp F2      &kp F3        &kp F4      &kp F5             &kp F6             &kp F7         &kp F8    &kp F9     &kp F10  &kp F11
 &kp LS(GRAVE)  &kp LS(N1)  &kp LS(N2)  &kp LS(N3)    &kp LS(N4)  &kp LS(LBKT)       &kp LS(RBKT)       &none          &none     &none      &none    &none
 &kp LSHFT      &kp LS(N5)  &kp LS(N6)  &kp LS(N7)    &kp LS(N8)  &none              &kp LS(BACKSLASH)  &none          &kp UP    &none      &none    &none
 &kp LC(C)      &interface  &type       &ref          &computed   &arrow_function    &none              &kp LEFT       &kp DOWN  &kp RIGHT  &none    &none
@@ -88,7 +88,7 @@
 
         Bluetooth {
             bindings = <
-&none        &none         &none         &none         &none      &none         &none       &none      &none         &none         &none         &none
+&kp ESC      &none         &none         &none         &none      &none         &none       &none      &none         &none         &none         &none
 &none        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none      &bt BT_CLR    &bt BT_CLR  &none      &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &none
 &none        &none         &none         &mkp MCLK     &none      &none         &none       &none      &mkp MCLK     &none         &none         &none
 &bootloader  &none         &mkp RCLK     &trans        &mkp LCLK  &none         &none       &mkp LCLK  &trans        &mkp RCLK     &none         &bootloader
