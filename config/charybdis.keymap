@@ -48,6 +48,24 @@
             bindings = <&kp C &kp O &kp N &kp S &kp T &kp SPACE &kp F &kp O &kp O &kp SPACE &kp EQUAL &kp SPACE &kp C &kp O &kp M &kp P &kp U &kp T &kp E &kp D &kp LPAR &kp LPAR &kp RPAR &kp SPACE &kp EQUAL &kp GT &kp SPACE &kp SQT &kp B &kp A &kp R &kp SQT &kp RPAR>;
             label = "COMPUTED";
         };
+
+        m_lclk: m_lclk {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&mkp MB1>;
+            label = "M_LCLK";
+            wait-ms = <0>;
+            tap-ms = <30>;
+        };
+
+        m_rlck: m_rlck {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&mkp MB2>;
+            label = "M_RLCK";
+            wait-ms = <0>;
+            tap-ms = <30>;
+        };
     };
 
     keymap {
